@@ -1,0 +1,43 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/images/src/image_ba.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "3ccb2d70afa51e0a40e01004a82d4c33a3cf0ee6bc0f2a63c15f24dafc238b4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc545621b35fbbb27f3713de482c6c86a7ec8f87cf63d38d023c08b16d349560"
+          }
+        }
+      ]
+    }
+  ]
+}

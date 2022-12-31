@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\Middlewares\ST\touchgfx\framework\include\touchgfx\widgets\canvas\</FILEPATH>
+      <FILENAME>PainterRGB565.hpp</FILENAME>
+      <LINE>42</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::PainterRGB565::color565' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::PainterRGB565::{ctor}</FUNCTION>
+    <DECORATED>??0PainterRGB565@touchgfx@@QAE@Ucolortype@1@@Z</DECORATED>
+    <FUNCLINE>42</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::PainterRGB565::color565</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\gui\include\gui\playscreen_screen\</FILEPATH>
+      <FILENAME>playscreenView.hpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'Chess::color' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>Chess::{ctor}</FUNCTION>
+    <DECORATED>??0Chess@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Chess::color</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\gui\include\gui\playscreen_screen\</FILEPATH>
+      <FILENAME>playscreenView.hpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'Chess::type' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>Chess::{ctor}</FUNCTION>
+    <DECORATED>??0Chess@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Chess::type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\gui\include\gui\playscreen_screen\</FILEPATH>
+      <FILENAME>playscreenView.hpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'Chess::_chess' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>Chess::{ctor}</FUNCTION>
+    <DECORATED>??0Chess@@QAE@XZ</DECORATED>
+    <FUNCLINE>48</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Chess::_chess</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

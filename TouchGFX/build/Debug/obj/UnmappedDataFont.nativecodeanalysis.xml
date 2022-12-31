@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\generated\fonts\include\fonts\</FILEPATH>
+      <FILENAME>UnmappedDataFont.hpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::UnmappedDataFont::arabicTable' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::UnmappedDataFont::{ctor}</FUNCTION>
+    <DECORATED>??0UnmappedDataFont@touchgfx@@IAE@XZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::UnmappedDataFont::arabicTable</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\generated\fonts\include\fonts\</FILEPATH>
+      <FILENAME>UnmappedDataFont.hpp</FILENAME>
+      <LINE>105</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::UnmappedDataFont::listSize' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::UnmappedDataFont::{ctor}</FUNCTION>
+    <DECORATED>??0UnmappedDataFont@touchgfx@@IAE@XZ</DECORATED>
+    <FUNCLINE>105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::UnmappedDataFont::listSize</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

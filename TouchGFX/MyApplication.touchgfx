@@ -1,0 +1,1193 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "rule",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "Width": 480,
+            "Height": 272,
+            "Pressed": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png",
+            "Released": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png"
+          },
+          {
+            "Type": "ScalableImage",
+            "Name": "scalableImage1",
+            "Width": 480,
+            "Height": 272,
+            "Filename": "rule.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "playscreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "result",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 66,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "Y": 204,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_2",
+            "Y": 134,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 58,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_1",
+            "X": 118,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2",
+            "X": 178,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1",
+            "X": 238,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1",
+            "X": 298,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1_1",
+            "X": 358,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1_1_1",
+            "X": 418,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "playscreen",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "LockPosition": true,
+            "Filename": "__designer\\Blue_Backgrounds_Main_bg_480x272px.png",
+            "ScalingAlgorithm": "Nearest-neighbor"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1",
+            "Y": 66,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_1",
+            "Y": 204,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line1_2",
+            "Y": 134,
+            "Width": 480,
+            "Height": 5,
+            "LockPosition": true,
+            "EndX": 480.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Round"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2",
+            "X": 58,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_1",
+            "X": 118,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2",
+            "X": 178,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1",
+            "X": 238,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1",
+            "X": 298,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1_1",
+            "X": 358,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Line",
+            "Name": "line2_2_1_1_1_1",
+            "X": 418,
+            "Width": 5,
+            "Height": 272,
+            "LockPosition": true,
+            "EndY": 272.0,
+            "LineWidth": 4.0,
+            "LineEndingStyle": "Butt"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_1",
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_2",
+            "X": 60,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_3",
+            "X": 120,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_4",
+            "X": 178,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_5",
+            "X": 238,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_6",
+            "X": 298,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_7",
+            "X": 358,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_8",
+            "X": 418,
+            "Y": 3,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_1_1",
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_2_1",
+            "X": 60,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_3_1",
+            "X": 120,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_4_1",
+            "X": 178,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_5_1",
+            "X": 238,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_6_1",
+            "X": 298,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_7_1",
+            "X": 358,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_8_1",
+            "X": 418,
+            "Y": 71,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_1_2",
+            "X": 1,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_2_2",
+            "X": 61,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_3_2",
+            "X": 121,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_4_2",
+            "X": 179,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_5_2",
+            "X": 239,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_6_2",
+            "X": 299,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_7_2",
+            "X": 359,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_8_2",
+            "X": 419,
+            "Y": 139,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_1_5",
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_2_5",
+            "X": 61,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_3_5",
+            "X": 121,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_4_5",
+            "X": 179,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_5_5",
+            "X": 239,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_6_5",
+            "X": 299,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_7_5",
+            "X": 359,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "Button",
+            "Name": "b1_8_5",
+            "X": 419,
+            "Y": 209,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__designer\\Blue_Buttons_Round_icon_button_pressed.png",
+            "Released": "__designer\\Blue_Buttons_Round_icon_button.png"
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "flexButton1",
+            "Width": 478,
+            "Height": 272,
+            "Visible": false,
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 478,
+                "Height": 272,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "DummyButton",
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_1_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_2_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_3_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_4"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_4_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_5_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_6"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_6_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_7"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_7_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_8"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b1_8_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_1_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_1_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_2_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_2_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction11",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_3_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_3_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction12",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_4_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_4_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction13",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_5_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_5_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction14",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_6_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_6_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction15",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_7_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_7_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction16",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_8_1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b2_8_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction17",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_1_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_1_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction18",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_2_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_2_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction19",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_3_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_3_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction20",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_4_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_4_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction21",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_5_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_5_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction22",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_6_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_6_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction23",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_7_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_7_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction24",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_8_2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b3_8_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction25",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_1_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_1_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction26",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_2_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_2_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction27",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_3_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_3_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction28",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_4_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_4_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction29",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_5_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_5_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction30",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_6_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_6_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction31",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_7_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_7_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction32",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "b1_8_5"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "b4_8_click"
+            }
+          },
+          {
+            "InteractionName": "Interaction33",
+            "Trigger": {
+              "Type": "TriggerPhysicalButtonClicked",
+              "ButtonKey": 48
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "DiedChesses"
+            }
+          },
+          {
+            "InteractionName": "Interaction34",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 15
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "blink"
+            }
+          },
+          {
+            "InteractionName": "Interaction35",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButton1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "TouchScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction36",
+            "Trigger": {
+              "Type": "TriggerNone"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "DummyInteration",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "DummyButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "GameOver"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "GameOver",
+        "Components": [
+          {
+            "Type": "Button",
+            "Name": "button1",
+            "Width": 480,
+            "Height": 272,
+            "Pressed": "__designer\\Blue_Backgrounds_Main_bg_texture_480x272px.png",
+            "Released": "__designer\\Blue_Backgrounds_Main_bg_texture_480x272px.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "showWin",
+            "X": 101,
+            "Y": 80,
+            "Width": 278,
+            "Height": 24,
+            "TextId": "__SingleUse_IJ45",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_R3W9",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 107,
+            "Y": 173,
+            "Width": 266,
+            "Height": 24,
+            "TextId": "__SingleUse_IGYS",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "rule"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "rule",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommand": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommand": "make -f ../gcc/Makefile flash -j8",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "Platform": "m7",
+    "ProjectFile": "../STM32F746G_DISCO.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0",
+  "CreatedBy": "4.20.0"
+}

@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/fonts/src/font_verdana_20_4bpp_0.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "79d5f02f678cf729b3d167de30415578d8564f02832fb8fdf6fb7cf37fd4d78e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "5bf235d74df28e65ffa602c6496e56b175cb33096aed2d6b1853d6f215b885d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc545621b35fbbb27f3713de482c6c86a7ec8f87cf63d38d023c08b16d349560"
+          }
+        }
+      ]
+    }
+  ]
+}

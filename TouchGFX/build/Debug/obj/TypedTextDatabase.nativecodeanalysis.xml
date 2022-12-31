@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\generated\fonts\include\fonts\</FILEPATH>
+      <FILENAME>GeneratedFont.hpp</FILENAME>
+      <LINE>68</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::BinaryFont::contextualForms' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::BinaryFont::{ctor}</FUNCTION>
+    <DECORATED>??0BinaryFont@touchgfx@@QAE@PBUBinaryFontData@1@@Z</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::BinaryFont::contextualForms</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\generated\fonts\include\fonts\</FILEPATH>
+      <FILENAME>GeneratedFont.hpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::BinaryFont::contextualForms' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::BinaryFont::{ctor}</FUNCTION>
+    <DECORATED>??0BinaryFont@touchgfx@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::BinaryFont::contextualForms</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\91kev\Downloads\lab4\lab4\MyApplication\TouchGFX\generated\fonts\include\fonts\</FILEPATH>
+      <FILENAME>GeneratedFont.hpp</FILENAME>
+      <LINE>91</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>變數 'touchgfx::BinaryFont::glyphData' 未初始化。永遠將成員變數初始化 (type.6)。</DESCRIPTION>
+    <FUNCTION>touchgfx::BinaryFont::{ctor}</FUNCTION>
+    <DECORATED>??0BinaryFont@touchgfx@@QAE@XZ</DECORATED>
+    <FUNCLINE>91</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>touchgfx::BinaryFont::glyphData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

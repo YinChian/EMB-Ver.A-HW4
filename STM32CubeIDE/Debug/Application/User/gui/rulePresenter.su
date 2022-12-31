@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/rule_screen/rulePresenter.hpp:28:13:rulePresenter::~rulePresenter()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/rule_screen/rulePresenter.cpp:10:6:virtual void rulePresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/rule_screen/rulePresenter.hpp:28:13:virtual rulePresenter::~rulePresenter()	8	static
+../../TouchGFX/gui/include/gui/rule_screen/rulePresenter.hpp:28:13:virtual void* rulePresenter::_ZThn4_N13rulePresenterD1Ev()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/rule_screen/rulePresenter.cpp:4:1:rulePresenter::rulePresenter(ruleView&)	8	static

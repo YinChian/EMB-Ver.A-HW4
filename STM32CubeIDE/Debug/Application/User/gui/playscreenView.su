@@ -1,0 +1,8 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+../../TouchGFX/gui/include/gui/playscreen_screen/playscreenView.hpp:11:13:playscreenView::~playscreenView()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:19:6:virtual void playscreenView::tearDownScreen()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:10:6:virtual void playscreenView::setupScreen()	24	static
+../../TouchGFX/gui/include/gui/playscreen_screen/playscreenView.hpp:11:13:virtual playscreenView::~playscreenView()	8	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:5:1:playscreenView::playscreenView()	8	static

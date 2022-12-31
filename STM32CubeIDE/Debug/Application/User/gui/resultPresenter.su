@@ -1,0 +1,5 @@
+../../TouchGFX/gui/include/gui/result_screen/resultPresenter.hpp:28:13:resultPresenter::~resultPresenter()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/result_screen/resultPresenter.cpp:10:6:virtual void resultPresenter::activate()	0	static
+../../TouchGFX/gui/include/gui/result_screen/resultPresenter.hpp:28:13:virtual resultPresenter::~resultPresenter()	8	static
+../../TouchGFX/gui/include/gui/result_screen/resultPresenter.hpp:28:13:virtual void* resultPresenter::_ZThn4_N15resultPresenterD1Ev()	0	static
+C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/result_screen/resultPresenter.cpp:4:1:resultPresenter::resultPresenter(resultView&)	8	static

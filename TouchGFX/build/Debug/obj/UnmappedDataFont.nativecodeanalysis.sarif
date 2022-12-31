@@ -1,0 +1,165 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "變數 'touchgfx::UnmappedDataFont::arabicTable' 未初始化。永遠將成員變數初始化 (type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 5,
+                  "endLine": 105,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "touchgfx::UnmappedDataFont::{ctor}",
+                  "decoratedName": "??0UnmappedDataFont@touchgfx@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "touchgfx::UnmappedDataFont::arabicTable"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "變數 'touchgfx::UnmappedDataFont::listSize' 未初始化。永遠將成員變數初始化 (type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp"
+                },
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 5,
+                  "endLine": 105,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "touchgfx::UnmappedDataFont::{ctor}",
+                  "decoratedName": "??0UnmappedDataFont@touchgfx@@IAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "touchgfx::UnmappedDataFont::listSize"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/UnmappedDataFont.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2d8690f635ed57663ef7caa84c3d50bba21bf75573ddf96495f6141d65d20b5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/fonts/src/unmappeddatafont.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "1b05dbacb984284ce475c8a0351ca432b023f8d070962e982b9a76a23c28ba25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/flashdatareader.hpp"
+          },
+          "hashes": {
+            "sha-256": "606face28f552ffa7ec3d47115bfe5fe72f87c2a68145b4b4e0f975becb25bb9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "5bf235d74df28e65ffa602c6496e56b175cb33096aed2d6b1853d6f215b885d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc545621b35fbbb27f3713de482c6c86a7ec8f87cf63d38d023c08b16d349560"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/fonts/include/fonts/applicationfontprovider.hpp"
+          },
+          "hashes": {
+            "sha-256": "17a640968b14977f0791d4c07515a70b937f7a41eb3a89f2da37c9085c29d23a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/fontmanager.hpp"
+          },
+          "hashes": {
+            "sha-256": "1e61084d8a457e5a57cd118fac126149b9f9756ad8840c905c6c7c6c0bbd6270"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "604461c9cc7b15daaad9b7b5db5bc5eb526a06e85922c9719ba3c132fcdee3f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/unicode.hpp"
+          },
+          "hashes": {
+            "sha-256": "b1e06ca0505a74bba80cf1cd94dc1a3fa0f850e585ed22313703f04d7bb8f84e"
+          }
+        }
+      ]
+    }
+  ]
+}

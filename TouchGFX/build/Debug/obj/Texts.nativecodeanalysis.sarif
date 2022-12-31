@@ -1,0 +1,251 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/texts/src/texts.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "5eefef9c0fdc72ad11ffdf43829fdc71e846472e102711a504acd9053dbf481c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/textprovider.hpp"
+          },
+          "hashes": {
+            "sha-256": "7147812b6ae82c43925a9237a4abf32bb081c18fbcfe10aa140aaf38d65aebbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "604461c9cc7b15daaad9b7b5db5bc5eb526a06e85922c9719ba3c132fcdee3f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/unicode.hpp"
+          },
+          "hashes": {
+            "sha-256": "b1e06ca0505a74bba80cf1cd94dc1a3fa0f850e585ed22313703f04d7bb8f84e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "5bf235d74df28e65ffa602c6496e56b175cb33096aed2d6b1853d6f215b885d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc545621b35fbbb27f3713de482c6c86a7ec8f87cf63d38d023c08b16d349560"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/texts.hpp"
+          },
+          "hashes": {
+            "sha-256": "385817a0287dcd6ac3c9c348cb1ed6307371a7142a64286664b1bbae86cd320e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/typedtext.hpp"
+          },
+          "hashes": {
+            "sha-256": "6efb0a84561f104c39ca54cd5db65ccc2a540e440029e70da8c29a6c81967ce8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/hal.hpp"
+          },
+          "hashes": {
+            "sha-256": "901a2cba60c6de4aad13a215a424bf063f0595131c690e8e16da78624c1e1fbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/platform/core/mcuinstrumentation.hpp"
+          },
+          "hashes": {
+            "sha-256": "0130ad82b054d56c622d7948e91cff20ac82484aae8217d8741f93455efe6d45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/platform/driver/button/buttoncontroller.hpp"
+          },
+          "hashes": {
+            "sha-256": "588f46de818c2e48b8aeeadf4b6722c362602685242b3124f9902c44a10f4430"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/platform/driver/touch/touchcontroller.hpp"
+          },
+          "hashes": {
+            "sha-256": "875be1ba10515a014fbe1f2c10469b26766f3e60b0f9f9c25aa1ff70a86e5833"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/bitmap.hpp"
+          },
+          "hashes": {
+            "sha-256": "333633fd278839398100ea64a479d890870df91f9a1843c9b609bf623a1f4794"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/drawable.hpp"
+          },
+          "hashes": {
+            "sha-256": "e15bbfcf4b916b04586ff01f0f779d8ff09f9df4b62c3b124468eed6d8fc24f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/events/clickevent.hpp"
+          },
+          "hashes": {
+            "sha-256": "d88b39ab243ca76d7100e9739835185af8648fdc5f8a60b93020f5ea951530ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/event.hpp"
+          },
+          "hashes": {
+            "sha-256": "a14fac36606d55d9892864c0b0bd0c8b8ac61cd03304e9aa1a62ce78942840dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/events/dragevent.hpp"
+          },
+          "hashes": {
+            "sha-256": "188f7b22c2b0d3dd964a0927b48a3cdf4193f4cba66ece6f1a4fa45a6cd14b64"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/events/gestureevent.hpp"
+          },
+          "hashes": {
+            "sha-256": "84714b5ec74bef46745bac312614a37c306856499d46a869e5f1c3a45e244360"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/blitop.hpp"
+          },
+          "hashes": {
+            "sha-256": "3c6201b6d827119826e166ad93a902b4b82367af9c119c39bffa5eb93b53905a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/dma.hpp"
+          },
+          "hashes": {
+            "sha-256": "c1977eb90b13e7f97edee227d18f8952fdb9b4684d6bc73b1b1d60c7b1eb107c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/atomic.hpp"
+          },
+          "hashes": {
+            "sha-256": "8fa2eac96f9e3a59767cca61f4607c77bfe23569670b8331d43aef66c6200c4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/framebufferallocator.hpp"
+          },
+          "hashes": {
+            "sha-256": "5da2ccbcd45b774c4b58828b6a313c654aa83808e226aa1f6f398a8eb8b81247"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/gestures.hpp"
+          },
+          "hashes": {
+            "sha-256": "2d0810fa7719c7807d942d831bc79b250888fce44d7e7be1702a097e3183d0ad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/uieventlistener.hpp"
+          },
+          "hashes": {
+            "sha-256": "0133b371d14a0209a4f05683c0c8ecf1c28ed9cf4a1011c0641d4eb2897342f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/lcd/lcd.hpp"
+          },
+          "hashes": {
+            "sha-256": "1aa121b2403f383d8405d77fd646d1dbc11e78a0391d1f8ba8bf5b45982aead1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/texturemaptypes.hpp"
+          },
+          "hashes": {
+            "sha-256": "2b10ec517acb2292835516b556e3501fdde9cabb8d813f5cbeb5eac01844a90b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/lcd/debugprinter.hpp"
+          },
+          "hashes": {
+            "sha-256": "a0b957b164646fafce6ab4673cd3ef79ec4cf2d559eaab18f8f8c7d44a2670b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/texts/include/texts/typedtextdatabase.hpp"
+          },
+          "hashes": {
+            "sha-256": "c9fc63fb5a3c716d58d09990f402f78419bf5ecdf9c2436a1306a88f65faf201"
+          }
+        }
+      ]
+    }
+  ]
+}

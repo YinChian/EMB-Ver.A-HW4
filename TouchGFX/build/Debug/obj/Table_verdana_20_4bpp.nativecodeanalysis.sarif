@@ -1,0 +1,180 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "變數 'touchgfx::BinaryFont::contextualForms' 未初始化。永遠將成員變數初始化 (type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 5,
+                  "endLine": 68,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "touchgfx::BinaryFont::{ctor}",
+                  "decoratedName": "??0BinaryFont@touchgfx@@QAE@PBUBinaryFontData@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "touchgfx::BinaryFont::contextualForms"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "變數 'touchgfx::BinaryFont::glyphData' 未初始化。永遠將成員變數初始化 (type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 5,
+                  "endLine": 91,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "touchgfx::BinaryFont::{ctor}",
+                  "decoratedName": "??0BinaryFont@touchgfx@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "touchgfx::BinaryFont::glyphData"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "變數 'touchgfx::BinaryFont::contextualForms' 未初始化。永遠將成員變數初始化 (type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp"
+                },
+                "region": {
+                  "startLine": 91,
+                  "startColumn": 5,
+                  "endLine": 91,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "touchgfx::BinaryFont::{ctor}",
+                  "decoratedName": "??0BinaryFont@touchgfx@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "touchgfx::BinaryFont::contextualForms"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31933.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/91kev/Downloads/lab4/lab4/MyApplication/TouchGFX/generated/fonts/include/fonts/GeneratedFont.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "51e86560c774a2c9d9f42d3497fb7eb576d27536a8e38bb11f2186d64e21c5b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/touchgfx/generated/fonts/src/table_verdana_20_4bpp.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a5526df579cdac834c0b6b95e92d5d1affd0367b63e291406c0ad0f348344be5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/constfont.hpp"
+          },
+          "hashes": {
+            "sha-256": "0f7c8b43c7524a5e159de0bace3b246a6214819b9fb341bdc32bb8002336d172"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/font.hpp"
+          },
+          "hashes": {
+            "sha-256": "604461c9cc7b15daaad9b7b5db5bc5eb526a06e85922c9719ba3c132fcdee3f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/unicode.hpp"
+          },
+          "hashes": {
+            "sha-256": "b1e06ca0505a74bba80cf1cd94dc1a3fa0f850e585ed22313703f04d7bb8f84e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/types.hpp"
+          },
+          "hashes": {
+            "sha-256": "5bf235d74df28e65ffa602c6496e56b175cb33096aed2d6b1853d6f215b885d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/91kev/downloads/lab4/lab4/myapplication/middlewares/st/touchgfx/framework/include/touchgfx/hal/config.hpp"
+          },
+          "hashes": {
+            "sha-256": "cc545621b35fbbb27f3713de482c6c86a7ec8f87cf63d38d023c08b16d349560"
+          }
+        }
+      ]
+    }
+  ]
+}
