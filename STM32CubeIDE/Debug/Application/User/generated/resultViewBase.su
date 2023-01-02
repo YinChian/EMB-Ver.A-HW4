@@ -21,7 +21,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:90:18:virtual void touchgfx::AbstractPainter::tearDown() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<resultPresenter>::~View()	0	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/result_screen/resultViewBase.hpp:19:13:resultViewBase::~resultViewBase()	0	static
-C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp:116:6:virtual void resultViewBase::setupScreen()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp:116:6:virtual void resultViewBase::setupScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<resultPresenter>::~View()	8	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/result_screen/resultViewBase.hpp:19:13:virtual resultViewBase::~resultViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
@@ -31,4 +31,4 @@ C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/resu
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:95:10:void touchgfx::Line::setStart(T, T) [with T = int]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:171:10:void touchgfx::Line::setEnd(T, T) [with T = int]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:248:10:void touchgfx::Line::setLineWidth(T) [with T = int]	4	static
-C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp:10:1:resultViewBase::resultViewBase()	136	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp:10:1:resultViewBase::resultViewBase()	136	static

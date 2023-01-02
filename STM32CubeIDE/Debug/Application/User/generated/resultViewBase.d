@@ -1,5 +1,5 @@
 Application/User/generated/resultViewBase.o: \
- C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp \
+ Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/result_screen/resultViewBase.cpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/result_screen/resultViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/common/FrontendApplicationBase.hpp \

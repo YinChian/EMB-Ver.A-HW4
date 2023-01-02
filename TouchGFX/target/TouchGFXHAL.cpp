@@ -27,7 +27,8 @@
 #include <CortexMMCUInstrumentation.hpp>
 #include "FreeRTOS.h"
 #include "task.h"
-
+#include <btnCtrl.hpp>
+PhysicalButtonController pbc;
 using namespace touchgfx;
 CortexMMCUInstrumentation instrumentation;
 
@@ -44,6 +45,7 @@ void TouchGFXHAL::initialize()
 
     TouchGFXGeneratedHAL::initialize();
     setFrameBufferStartAddresses((void*)frameBuffer0, (void*)frameBuffer1, (void*)animationBuffer);  //enable the animation storage to allow slide animations
+    setButtonController(&pbc);
     lockDMAToFrontPorch(false);
     instrumentation.init();
     setMCUInstrumentation(&instrumentation);

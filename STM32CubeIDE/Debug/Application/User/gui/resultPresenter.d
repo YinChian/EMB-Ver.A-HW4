@@ -1,5 +1,5 @@
 Application/User/gui/resultPresenter.o: \
- C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/result_screen/resultPresenter.cpp \
+ Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/result_screen/resultPresenter.cpp \
  ../../TouchGFX/gui/include/gui/result_screen/resultView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/result_screen/resultViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \

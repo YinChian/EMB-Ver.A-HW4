@@ -10,6 +10,7 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:501:18:virtual void touchgfx::Drawable::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:588:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	4	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:703:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:165:23:virtual touchgfx::Drawable* touchgfx::Container::getFirstChild()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:93:18:virtual void touchgfx::Screen::setupScreen()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:115:18:virtual void touchgfx::Screen::tearDownScreen()	0	static
@@ -19,18 +20,80 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:61:34:virtual touchgfx::HAL::RenderingMethod touchgfx::AbstractPainter::getRenderingMethod() const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:78:18:virtual bool touchgfx::AbstractPainter::setup(const touchgfx::Rect&) const	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainter.hpp:90:18:virtual void touchgfx::AbstractPainter::tearDown() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:114:18:virtual void touchgfx::AbstractButtonContainer::handlePressedUpdated()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:119:18:virtual void touchgfx::AbstractButtonContainer::handleAlphaUpdated()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:34:7:touchgfx::AbstractButtonContainer::~AbstractButtonContainer()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<playscreenPresenter>::~View()	0	static
-../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:20:13:playscreenViewBase::~playscreenViewBase()	0	static
-C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:244:6:virtual void playscreenViewBase::setupScreen()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:21:13:playscreenViewBase::~playscreenViewBase()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:29:18:virtual void playscreenViewBase::b1_1_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:34:18:virtual void playscreenViewBase::b1_2_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:39:18:virtual void playscreenViewBase::b1_3_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:44:18:virtual void playscreenViewBase::b1_4_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:49:18:virtual void playscreenViewBase::b1_5_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:54:18:virtual void playscreenViewBase::b1_6_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:59:18:virtual void playscreenViewBase::b1_7_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:64:18:virtual void playscreenViewBase::b1_8_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:69:18:virtual void playscreenViewBase::b2_1_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:74:18:virtual void playscreenViewBase::b2_2_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:79:18:virtual void playscreenViewBase::b2_3_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:84:18:virtual void playscreenViewBase::b2_4_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:89:18:virtual void playscreenViewBase::b2_5_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:94:18:virtual void playscreenViewBase::b2_6_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:99:18:virtual void playscreenViewBase::b2_7_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:104:18:virtual void playscreenViewBase::b2_8_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:109:18:virtual void playscreenViewBase::b3_1_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:114:18:virtual void playscreenViewBase::b3_2_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:119:18:virtual void playscreenViewBase::b3_3_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:124:18:virtual void playscreenViewBase::b3_4_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:129:18:virtual void playscreenViewBase::b3_5_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:134:18:virtual void playscreenViewBase::b3_6_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:139:18:virtual void playscreenViewBase::b3_7_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:144:18:virtual void playscreenViewBase::b3_8_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:149:18:virtual void playscreenViewBase::b4_1_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:154:18:virtual void playscreenViewBase::b4_2_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:159:18:virtual void playscreenViewBase::b4_3_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:164:18:virtual void playscreenViewBase::b4_4_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:169:18:virtual void playscreenViewBase::b4_5_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:174:18:virtual void playscreenViewBase::b4_6_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:179:18:virtual void playscreenViewBase::b4_7_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:184:18:virtual void playscreenViewBase::b4_8_click()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:189:18:virtual void playscreenViewBase::DiedChesses()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:194:18:virtual void playscreenViewBase::blink()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:199:18:virtual void playscreenViewBase::TouchScreen()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:295:6:virtual void playscreenViewBase::setupScreen()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:123:18:void touchgfx::BoxWithBorderButtonStyle<T>::handlePressedUpdated() [with T = touchgfx::ClickButtonTrigger]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<playscreenViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<playscreenViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:41:7:touchgfx::BoxWithBorderButtonStyle<touchgfx::ClickButtonTrigger>::~BoxWithBorderButtonStyle()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = playscreenViewBase; T1 = const touchgfx::AbstractButtonContainer&]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = playscreenViewBase; T1 = const touchgfx::AbstractButtonContainer&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = playscreenViewBase; T1 = const touchgfx::AbstractButton&]	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = playscreenViewBase; T1 = const touchgfx::AbstractButton&]	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:131:18:void touchgfx::BoxWithBorderButtonStyle<T>::handleAlphaUpdated() [with T = touchgfx::ClickButtonTrigger]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<playscreenPresenter>::~View()	8	static
-../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:20:13:virtual playscreenViewBase::~playscreenViewBase()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:34:7:virtual touchgfx::AbstractButtonContainer::~AbstractButtonContainer()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:35:7:virtual touchgfx::ClickButtonTrigger::~ClickButtonTrigger()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:41:7:virtual touchgfx::BoxWithBorderButtonStyle<touchgfx::ClickButtonTrigger>::~BoxWithBorderButtonStyle()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<playscreenViewBase, const touchgfx::AbstractButton&>::~Callback()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:virtual touchgfx::Callback<playscreenViewBase, const touchgfx::AbstractButtonContainer&>::~Callback()	8	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/playscreen_screen/playscreenViewBase.hpp:21:13:virtual playscreenViewBase::~playscreenViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/AbstractButtonContainer.hpp:99:18:virtual void touchgfx::AbstractButtonContainer::executeAction()	8	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:301:6:virtual void playscreenViewBase::handleTickEvent()	8	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:316:6:virtual void playscreenViewBase::handleKeyEvent(uint8_t)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:327:6:void playscreenViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/ClickButtonTrigger.hpp:47:18:virtual void touchgfx::ClickButtonTrigger::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:555:6:void playscreenViewBase::flexButtonCallbackHandler(const touchgfx::AbstractButtonContainer&)	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:48:5:touchgfx::Drawable::Drawable()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:33:5:touchgfx::Box::Box()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/AbstractPainterRGB565.hpp:41:5:touchgfx::AbstractPainterRGB565::AbstractPainterRGB565()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/PainterRGB565.hpp:42:5:touchgfx::PainterRGB565::PainterRGB565(touchgfx::colortype)	16	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:34:5:touchgfx::Button::Button()	0	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:34:5:touchgfx::Button::Button()	8	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/buttons/BoxWithBorderButtonStyle.hpp:44:5:touchgfx::BoxWithBorderButtonStyle<T>::BoxWithBorderButtonStyle() [with T = touchgfx::ClickButtonTrigger]	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:95:10:void touchgfx::Line::setStart(T, T) [with T = int]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:171:10:void touchgfx::Line::setEnd(T, T) [with T = int]	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/canvas/Line.hpp:248:10:void touchgfx::Line::setLineWidth(T) [with T = int]	4	static
-C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:10:1:playscreenViewBase::playscreenViewBase()	264	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/playscreen_screen/playscreenViewBase.cpp:10:1:playscreenViewBase::playscreenViewBase()	272	static

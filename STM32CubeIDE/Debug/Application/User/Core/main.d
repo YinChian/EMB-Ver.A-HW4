@@ -1,6 +1,5 @@
 Application/User/Core/main.o: \
- C:/TouchGFXProjects/lab4/MyApplication/Core/Src/main.c \
- ../../Core/Inc/main.h \
+ Z:/Embbed_System/Ray/MyApplication/Core/Src/main.c ../../Core/Inc/main.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../../Core/Inc/stm32f7xx_hal_conf.h \
  ../../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \

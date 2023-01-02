@@ -1,5 +1,5 @@
 Application/User/gui/ruleView.o: \
- C:/TouchGFXProjects/lab4/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp \
+ Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp \
  ../../TouchGFX/gui/include/gui/rule_screen/ruleView.hpp \
  ../../TouchGFX/generated/gui_generated/include/gui_generated/rule_screen/ruleViewBase.hpp \
  ../../TouchGFX/gui/include/gui/common/FrontendApplication.hpp \
