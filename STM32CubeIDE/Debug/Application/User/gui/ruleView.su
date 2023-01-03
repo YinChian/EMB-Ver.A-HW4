@@ -1,8 +1,8 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:104:18:virtual void touchgfx::Screen::afterTransition()	0	static
-../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:144:18:virtual void touchgfx::Screen::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:154:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
 ../../TouchGFX/gui/include/gui/rule_screen/ruleView.hpp:11:13:ruleView::~ruleView()	0	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp:13:6:virtual void ruleView::tearDownScreen()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp:20:6:virtual void ruleView::RNG()	0	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp:8:6:virtual void ruleView::setupScreen()	0	static
 ../../TouchGFX/gui/include/gui/rule_screen/ruleView.hpp:11:13:virtual ruleView::~ruleView()	8	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/rule_screen/ruleView.cpp:3:1:ruleView::ruleView()	8	static

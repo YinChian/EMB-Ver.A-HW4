@@ -11,7 +11,9 @@ public:
     virtual ~ruleView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void RNG();
 protected:
+    int seed = 0;
 };
 
 #endif // RULEVIEW_HPP

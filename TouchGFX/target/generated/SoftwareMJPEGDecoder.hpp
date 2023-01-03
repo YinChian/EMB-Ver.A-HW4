@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2022 STMicroelectronics.
+  * Copyright (c) 2023 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -41,24 +41,15 @@ public:
 
     virtual void gotoFrame(uint32_t frameno);
 
-    virtual uint32_t getCurrentFrameNumber() const
-    {
-        return frameNumber;
-    }
+    virtual uint32_t getCurrentFrameNumber() const { return frameNumber; }
 
     virtual uint32_t getNumberOfFrames();
 
     virtual void getVideoInfo(touchgfx::VideoInformation* data);
 
-    void setAVIFileBuffer(uint8_t* buffer, uint32_t size)
-    {
-        aviBuffer = buffer, aviBufferLength = size;
-    }
+    void setAVIFileBuffer(uint8_t* buffer, uint32_t size) { aviBuffer = buffer, aviBufferLength = size; }
 
-    AVIErrors getLastError()
-    {
-        return lastError;
-    }
+    virtual AVIErrors getLastError() { return lastError; }
 private:
     void readVideoHeader();
     void decodeMJPEGFrame(const uint8_t* const mjpgdata, const uint32_t length, uint8_t* buffer, uint16_t width, uint16_t height, uint32_t stride);

@@ -21,10 +21,19 @@ public:
         winner_side = set;
     }
 
+    void setSeed(int _seed) {
+        seed = _seed;
+    }
+
+    int getSeed() {
+        return seed;
+    }
+
     void tick();
 protected:
     ModelListener* modelListener;
     bool winner_side = false;
+    int seed = 0;
 };
 
 #endif // MODEL_HPP

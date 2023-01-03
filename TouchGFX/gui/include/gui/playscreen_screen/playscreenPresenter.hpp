@@ -29,6 +29,10 @@ public:
         model->setWinnerSide(winner);
     }
 
+    int getSeed() {
+        return model->getSeed();
+    }
+
     virtual ~playscreenPresenter() {};
 
 private:

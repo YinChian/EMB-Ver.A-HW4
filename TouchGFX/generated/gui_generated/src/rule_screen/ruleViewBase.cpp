@@ -30,6 +30,16 @@ void ruleViewBase::setupScreen()
 
 }
 
+//Handles tick based events
+void ruleViewBase::handleTickEvent()
+{
+    //RNG_Seed_Generator
+    //When every N tick call virtual function
+    //Call RNG
+    RNG();
+
+}
+
 void ruleViewBase::buttonCallbackHandler(const touchgfx::AbstractButton& src)
 {
     if (&src == &button1)

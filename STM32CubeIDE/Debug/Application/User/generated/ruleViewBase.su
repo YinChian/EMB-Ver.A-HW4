@@ -18,7 +18,9 @@
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:45:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	0	static
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:touchgfx::View<rulePresenter>::~View()	0	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/rule_screen/ruleViewBase.hpp:18:13:ruleViewBase::~ruleViewBase()	0	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/rule_screen/ruleViewBase.hpp:25:18:virtual void ruleViewBase::RNG()	0	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_screen/ruleViewBase.cpp:28:6:virtual void ruleViewBase::setupScreen()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_screen/ruleViewBase.cpp:34:6:virtual void ruleViewBase::handleTickEvent()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:357:8:touchgfx::Callback<ruleViewBase, const touchgfx::AbstractButton&>::~Callback()	0	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:386:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = ruleViewBase; T1 = const touchgfx::AbstractButton&]	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:396:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = ruleViewBase; T1 = const touchgfx::AbstractButton&]	0	static
@@ -26,7 +28,7 @@ Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_scr
 ../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:36:7:virtual touchgfx::View<rulePresenter>::~View()	8	static
 ../../TouchGFX/generated/gui_generated/include/gui_generated/rule_screen/ruleViewBase.hpp:18:13:virtual ruleViewBase::~ruleViewBase()	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:121:18:virtual void touchgfx::Drawable::invalidateContent() const	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_screen/ruleViewBase.cpp:33:6:void ruleViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_screen/ruleViewBase.cpp:43:6:void ruleViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	8	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:343:10:void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
 ../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:233:10:void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	16	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/generated/gui_generated/src/rule_screen/ruleViewBase.cpp:8:1:ruleViewBase::ruleViewBase()	56	static

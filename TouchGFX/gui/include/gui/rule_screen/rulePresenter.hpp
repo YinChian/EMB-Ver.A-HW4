@@ -27,6 +27,10 @@ public:
 
     virtual ~rulePresenter() {};
 
+    void setSeed(int _seed) {
+        model->setSeed(_seed);
+    }
+
 private:
     rulePresenter();
 

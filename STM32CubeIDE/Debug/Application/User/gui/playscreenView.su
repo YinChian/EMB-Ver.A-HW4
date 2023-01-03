@@ -4,59 +4,59 @@ Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreen
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:8:6:virtual void playscreenView::setupScreen()	184	static
 ../../TouchGFX/gui/include/gui/playscreen_screen/playscreenView.hpp:25:13:virtual playscreenView::~playscreenView()	8	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:3:1:playscreenView::playscreenView()	24	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:172:6:bool playscreenView::isGood(int, int)	20	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:217:6:bool playscreenView::isGoodtoMove(int, int)	8	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:431:6:void playscreenView::trasfer_screen()	8	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:436:6:void playscreenView::send_winner(bool)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:492:6:void playscreenView::Chess::assignButton(touchgfx::Button*)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:522:6:void playscreenView::Chess::setEmpty()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:529:6:void playscreenView::Chess::makeItAppearAgain()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:498:6:void playscreenView::Chess::setPicture(Color, Type)	64	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:517:6:void playscreenView::Chess::showPicture()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:40:6:virtual void playscreenView::DiedChesses()	40	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:257:6:virtual void playscreenView::TouchScreen()	48	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:234:6:virtual void playscreenView::blink()	16	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:535:6:void playscreenView::Chess::setType(int)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:540:6:Type playscreenView::Chess::getType()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:545:6:void playscreenView::Chess::setColor(int)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:550:7:Color playscreenView::Chess::getColor()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:555:6:void playscreenView::Chess::setState(State)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:560:6:bool playscreenView::Chess::getVisibleStatus()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:565:7:State playscreenView::Chess::getState()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:570:6:void playscreenView::Last::setLastChess(playscreenView::Chess*, int, int)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:576:6:void playscreenView::Last::setPosition(int, int)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:582:6:void playscreenView::Last::getPosition(int&, int&)	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:588:6:void playscreenView::Died_Rem::add_died(Color, Type)	12	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:66:6:void playscreenView::touchHandle(int, int)	32	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:286:6:virtual void playscreenView::b1_1_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:292:6:virtual void playscreenView::b1_2_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:298:6:virtual void playscreenView::b1_3_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:305:6:virtual void playscreenView::b1_4_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:311:6:virtual void playscreenView::b1_5_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:317:6:virtual void playscreenView::b1_6_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:323:6:virtual void playscreenView::b1_7_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:329:6:virtual void playscreenView::b1_8_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:335:6:virtual void playscreenView::b2_1_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:341:6:virtual void playscreenView::b2_2_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:347:6:virtual void playscreenView::b2_3_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:353:6:virtual void playscreenView::b2_4_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:359:6:virtual void playscreenView::b2_5_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:365:6:virtual void playscreenView::b2_6_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:371:6:virtual void playscreenView::b2_7_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:377:6:virtual void playscreenView::b2_8_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:383:6:virtual void playscreenView::b3_1_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:389:6:virtual void playscreenView::b3_2_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:395:6:virtual void playscreenView::b3_3_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:401:6:virtual void playscreenView::b3_4_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:407:6:virtual void playscreenView::b3_5_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:413:6:virtual void playscreenView::b3_6_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:419:6:virtual void playscreenView::b3_7_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:425:6:virtual void playscreenView::b3_8_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:441:6:virtual void playscreenView::b4_1_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:447:6:virtual void playscreenView::b4_2_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:453:6:virtual void playscreenView::b4_3_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:459:6:virtual void playscreenView::b4_4_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:465:6:virtual void playscreenView::b4_5_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:471:6:virtual void playscreenView::b4_6_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:477:6:virtual void playscreenView::b4_7_click()	0	static
-Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:483:6:virtual void playscreenView::b4_8_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:171:6:bool playscreenView::isGood(int, int)	20	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:216:6:bool playscreenView::isGoodtoMove(int, int)	8	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:430:6:void playscreenView::trasfer_screen()	8	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:435:6:void playscreenView::send_winner(bool)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:491:6:void playscreenView::Chess::assignButton(touchgfx::Button*)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:521:6:void playscreenView::Chess::setEmpty()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:528:6:void playscreenView::Chess::makeItAppearAgain()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:497:6:void playscreenView::Chess::setPicture(Color, Type)	64	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:40:6:virtual void playscreenView::DiedChesses()	48	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:516:6:void playscreenView::Chess::showPicture()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:256:6:virtual void playscreenView::TouchScreen()	40	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:233:6:virtual void playscreenView::blink()	16	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:534:6:void playscreenView::Chess::setType(int)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:539:6:Type playscreenView::Chess::getType()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:544:6:void playscreenView::Chess::setColor(int)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:549:7:Color playscreenView::Chess::getColor()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:554:6:void playscreenView::Chess::setState(State)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:559:6:bool playscreenView::Chess::getVisibleStatus()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:564:7:State playscreenView::Chess::getState()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:569:6:void playscreenView::Last::setLastChess(playscreenView::Chess*, int, int)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:575:6:void playscreenView::Last::setPosition(int, int)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:581:6:void playscreenView::Last::getPosition(int&, int&)	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:587:6:void playscreenView::Died_Rem::add_died(Color, Type)	12	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:65:6:void playscreenView::touchHandle(int, int)	32	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:285:6:virtual void playscreenView::b1_1_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:291:6:virtual void playscreenView::b1_2_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:297:6:virtual void playscreenView::b1_3_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:304:6:virtual void playscreenView::b1_4_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:310:6:virtual void playscreenView::b1_5_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:316:6:virtual void playscreenView::b1_6_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:322:6:virtual void playscreenView::b1_7_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:328:6:virtual void playscreenView::b1_8_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:334:6:virtual void playscreenView::b2_1_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:340:6:virtual void playscreenView::b2_2_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:346:6:virtual void playscreenView::b2_3_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:352:6:virtual void playscreenView::b2_4_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:358:6:virtual void playscreenView::b2_5_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:364:6:virtual void playscreenView::b2_6_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:370:6:virtual void playscreenView::b2_7_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:376:6:virtual void playscreenView::b2_8_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:382:6:virtual void playscreenView::b3_1_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:388:6:virtual void playscreenView::b3_2_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:394:6:virtual void playscreenView::b3_3_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:400:6:virtual void playscreenView::b3_4_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:406:6:virtual void playscreenView::b3_5_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:412:6:virtual void playscreenView::b3_6_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:418:6:virtual void playscreenView::b3_7_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:424:6:virtual void playscreenView::b3_8_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:440:6:virtual void playscreenView::b4_1_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:446:6:virtual void playscreenView::b4_2_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:452:6:virtual void playscreenView::b4_3_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:458:6:virtual void playscreenView::b4_4_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:464:6:virtual void playscreenView::b4_5_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:470:6:virtual void playscreenView::b4_6_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:476:6:virtual void playscreenView::b4_7_click()	0	static
+Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenView.cpp:482:6:virtual void playscreenView::b4_8_click()	0	static

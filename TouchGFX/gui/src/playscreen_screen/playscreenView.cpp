@@ -16,7 +16,7 @@ void playscreenView::setupScreen()
     // ¶Ã¼Æ©â¿ï
     const int selection[32] = { 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 6, 6, 6, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 13, 13, 13 };
     
-    srand((unsigned int)time(NULL));
+    srand((unsigned int)presenter->getSeed());
     bool label[32] = { false };
     for (int i = 0; i < 32; i++) {
         int n;
@@ -42,12 +42,8 @@ void playscreenView::DiedChesses()
     isShowingDeath = true;
     for (int x = 0; x < 8; x++) {
         for (int y = 0; y < 4; y++) {
-            backup[x][y].color = chess[x][y].getColor();
-            backup[x][y].type = chess[x][y].getType();
             chess[x][y].setEmpty();
             chess[x][y]._chess->setTouchable(false);
-            if (y < 2) chess[x][y].setColor(Red);
-            else chess[x][y].setColor(Black);
         }
     }
     flexButton1.setTouchable(true);
@@ -56,10 +52,13 @@ void playscreenView::DiedChesses()
         Type red = died_rem.died_rem[0][i];
         Type black = died_rem.died_rem[1][i];
         
-        chess[i % 8][i / 8].setType(red);
-        chess[i % 8][i / 8].showPicture();
-        chess[i % 8][i / 8 + 2].setType(black);
-        chess[i % 8][i / 8 + 2].showPicture();
+        chess[i % 8][i / 8].setPicture(Red,red);
+        chess[i % 8][i / 8 + 2].setPicture(Black, black);
+
+        //chess[i % 8][i / 8].setType(red);
+        //chess[i % 8][i / 8].showPicture();
+        //chess[i % 8][i / 8 + 2].setType(black);
+        //chess[i % 8][i / 8 + 2].showPicture();
     }
 }
 
@@ -260,8 +259,8 @@ void playscreenView::TouchScreen() {
     isShowingDeath = false;
     for (int x = 0; x < 8; x++) {
         for (int y = 0; y < 4; y++) {
-            chess[x][y].color = backup[x][y].color;
-            chess[x][y].type = backup[x][y].type;
+            //chess[x][y].color = backup[x][y].color;
+            //chess[x][y].type = backup[x][y].type;
             switch (chess[x][y].getState())
             {
             case Covered:

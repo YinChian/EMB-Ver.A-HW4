@@ -17,6 +17,15 @@ public:
     ruleViewBase();
     virtual ~ruleViewBase() {}
     virtual void setupScreen();
+    virtual void handleTickEvent();
+
+    /*
+     * Virtual Action Handlers
+     */
+    virtual void RNG()
+    {
+        // Override and implement this function in rule
+    }
 
 protected:
     FrontendApplication& application() {

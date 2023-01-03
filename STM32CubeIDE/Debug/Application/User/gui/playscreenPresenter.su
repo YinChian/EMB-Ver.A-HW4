@@ -1,5 +1,5 @@
-../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:32:13:playscreenPresenter::~playscreenPresenter()	0	static
+../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:36:13:playscreenPresenter::~playscreenPresenter()	0	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenPresenter.cpp:10:6:virtual void playscreenPresenter::activate()	0	static
-../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:32:13:virtual playscreenPresenter::~playscreenPresenter()	8	static
-../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:32:13:virtual void* playscreenPresenter::_ZThn4_N19playscreenPresenterD1Ev()	0	static
+../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:36:13:virtual playscreenPresenter::~playscreenPresenter()	8	static
+../../TouchGFX/gui/include/gui/playscreen_screen/playscreenPresenter.hpp:36:13:virtual void* playscreenPresenter::_ZThn4_N19playscreenPresenterD1Ev()	0	static
 Z:/Embbed_System/Ray/MyApplication/TouchGFX/gui/src/playscreen_screen/playscreenPresenter.cpp:4:1:playscreenPresenter::playscreenPresenter(playscreenView&)	8	static

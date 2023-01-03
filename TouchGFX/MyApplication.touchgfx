@@ -33,6 +33,17 @@
               "ScreenTransitionType": "ScreenTransitionNone",
               "ActionComponent": "playscreen"
             }
+          },
+          {
+            "InteractionName": "RNG_Seed_Generator",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 1
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "RNG"
+            }
           }
         ]
       },
